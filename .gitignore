@@ -1,0 +1,90 @@
+# ========== Unity Generated Files ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# ========== Visual Studio / MonoDevelop / Rider ==========
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.ide
+
+# ========== Unity Crash Reports ==========
+sysinfo.txt
+
+# ========== OS-Specific Files ==========
+.DS_Store
+Thumbs.db
+
+# ========== Other Generated Files ==========
+*.apk
+*.db
+*.sql
+*.sqlite
+
+# ========== Unity Addressable Assets ==========
+/Assets/AddressableAssetsData/
+
+# ========== Unity Auto-Lightmap Cache ==========
+/Library/LightmapSnapshot/
+
+# ========== Unity Asset Meta Files ==========
+*.meta
+
+# ========== Temporary Files Created by Unity ==========
+*.unitypackage
+*.collab
+*.pidb.meta
+*.pidb
+
+# ========== Rider / JetBrains IDE Files ==========
+.idea/
+*.iml
+
+# ========== Ignore Build Artifacts ==========
+*.stackdump
+*.objdump
+*.crash
+
+# ========== Packages Folder ==========
+/Packages/packages-lock.json
+
+# ========== Build Folder ==========
+Builds/
+
+# ========== Unity Asset Store Files ==========
+*/[Aa]ssets/*[Aa]sset[Ss]tore/
+
+# ========== Log Files ==========
+*.log
+
+# ========== User Settings ==========
+UserSettings/
+
+# ========== Unity Specific ProjectSettings Files to Ignore ==========
+ProjectSettings/UnityConnectSettings.asset
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/VersionControlSettings.asset
+
+# ========== Visual Studio Code ==========
+.vscode/
+*.code-workspace
+
+# ========== Shader Cache Files ==========
+*.cginc
+*.hlsl
+*.shader
+
+# ========== TextMeshPro Assets ==========
+*.TMP_EditorSettings
