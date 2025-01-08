@@ -88,3 +88,6 @@ ProjectSettings/VersionControlSettings.asset
 
 # ========== TextMeshPro Assets ==========
 *.TMP_EditorSettings
+Assets/TextMesh Pro/Resources/Sprite Assets/*.spriteatlas
+Assets/TextMesh Pro/Resources/Font Asset Creation Settings/*.json
+Assets/TextMesh Pro/Examples & Extras/
