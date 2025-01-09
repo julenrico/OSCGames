@@ -3102,6 +3102,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a37afd745c03714387275694b812ab5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1886846577}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a37afd745c03714387275694b812ab5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1886846578}
   m_SourcePrefab: {fileID: 100100000, guid: 5a37afd745c03714387275694b812ab5, type: 3}
 --- !u!4 &1886846576 stripped
 Transform:
@@ -3121,7 +3124,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 164cb7c3bf5f329499969c521249d962, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -3130,6 +3133,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1886846578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227051576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26abcd37e8a8a0f419cce65f420cbb1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1465373535}
+  animator: {fileID: 1886846577}
+  moveSpeed: 1
+  rotationSpeed: 5
+  approachDistance: 3
+  retreatDistance: 1.5
+  movementInterval: 2
+  attackInterval: 2
+  punchRange: 2
 --- !u!1 &2011383402
 GameObject:
   m_ObjectHideFlags: 0
